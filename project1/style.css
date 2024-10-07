@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(139, 123, 105);
+}
+header,footer{
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding:20px;
+}
+.navitem{
+    display: inline;
+    padding: 15px;
+}
+.navitem a { 
+    text-decoration: none;
+    color: black;
+}
+.registerform{
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column-reverse;
+}
+.employeedirectory{
+ text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+th,td{
+   border: 1px solid black;
+}
+.contact{
+    text-align: center;
+
+}
